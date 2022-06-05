@@ -46,7 +46,7 @@ button {
   align-items: center;
   min-width: 239px;
   height: 56px;
-  background: #fed330;
+  background-color: #fed330;
   border: 1px solid #000000;
   border-radius: 40px;
   cursor: pointer;
@@ -58,6 +58,10 @@ button {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: #509e5a;
+  background-color: #509e5a;
   margin-left: 10px;
+}
+.btn-work:hover,
+.btn-work:focus {
+  background-color: #726fc8;
 }
